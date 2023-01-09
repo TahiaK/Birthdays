@@ -1,0 +1,13 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Courier New', Courier, monospace;
+  background: #1f1f1f;
+  background-image: url('images/background.jpg');
+}
+
+body {
+  margin: 0;
+}
