@@ -14,3 +14,8 @@
     margin: 0.5rem 0;
     padding: 0.5rem;
   }
+
+  .fallback {
+    text-align: center;
+    color: rgb(60, 39, 79);
+  }

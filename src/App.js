@@ -1,19 +1,19 @@
 import AddPeople from "./components/People/AddPeople";
-import PeopleList from "./components/People/PeopleList"
+import People from "./components/People/People";
 import React, {useState} from "react";
 
 function App() {
   const [peopleList, setPeopleList] = useState([])
 
-  const addPeopleHandler = (pname, pdate) => {
+  const addPeopleHandler = (data) => {
     setPeopleList((prevList) => {
-      return [...prevList, {name: pname, date: pdate, id: Math.random().toString()}]
+      return [...prevList, {name: data.name, day: data.day, month: data.month, year: data.year, id: Math.random().toString()}]
     })
   }
   return (
     <div>
       <AddPeople onAddPeople={addPeopleHandler}/>
-      <PeopleList people={peopleList}/>
+      <People people={peopleList}/>
     </div>
   );
 }

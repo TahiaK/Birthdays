@@ -15,9 +15,15 @@ const AddPeople = props => {
         if (enteredDate.trim().length === 0 || enteredName.trim().length === 0) return
         const date = new Date(enteredDate)
         const month = date.toLocaleString('en-US', { month: 'long' });
-        const day = date.getDate()+1
+        const day = date.getUTCDate();
         const year = date.getFullYear();
-        props.onAddPeople(enteredName, enteredDate)
+        const data = {
+            name: enteredName,
+            day: day,
+            month: month,
+            year: year
+        }
+        props.onAddPeople(data)
         setEnteredName('')
         setEnteredDate('')
     }

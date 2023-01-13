@@ -1,0 +1,28 @@
+.peoplefilter {
+  margin: 2rem auto;
+  width: 90%;
+  max-width: 40rem;
+  }
+  
+  .peoplefiltercontrol {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1rem 0;
+  }
+  
+  .peoplefilter label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    margin-right: 287px;
+    margin-left: 2px;
+  }
+  
+  .peoplefilter select {
+    font: inherit;
+    padding: 0.5rem 3rem;
+    /* margin: 1px; */
+    font-weight: bold;
+    border-radius: 6px;
+  }
