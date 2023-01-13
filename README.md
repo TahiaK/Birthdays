@@ -1,7 +1,7 @@
 # Birthday Application
 
 ## Preview
-![image](https://user-images.githubusercontent.com/105739044/187035719-7807f142-3da4-4cde-a083-5858b15c358e.png) 
+![image](<img width="510" alt="image" src="https://user-images.githubusercontent.com/105739044/212254203-036b89b9-87c2-4c73-9e82-617bca4e056b.png">) 
 
 ## Get Started
 1. Clone this reposity and run:
