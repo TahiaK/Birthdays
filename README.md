@@ -4,7 +4,7 @@
 ![image](https://user-images.githubusercontent.com/105739044/212254203-036b89b9-87c2-4c73-9e82-617bca4e056b.png) 
 
 ## Get Started
-1. Clone this reposity and run:
+1. Clone this repository and run:
 ```sh
 npm install
 ```
