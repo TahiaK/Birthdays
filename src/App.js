@@ -7,7 +7,7 @@ function App() {
 
   const addPeopleHandler = (data) => {
     setPeopleList((prevList) => {
-      return [...prevList, {name: data.name, day: data.day, month: data.month, year: data.year, id: Math.random().toString()}]
+      return [...prevList, {name: data.name, day: data.day, month: data.month, year: data.year, age: data.age, id: Math.random().toString()}]
     })
   }
   return (

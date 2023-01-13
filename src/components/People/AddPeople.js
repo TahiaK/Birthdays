@@ -17,11 +17,18 @@ const AddPeople = props => {
         const month = date.toLocaleString('en-US', { month: 'long' });
         const day = date.getUTCDate();
         const year = date.getFullYear();
+        var today = new Date()
+        var age = today.getFullYear() - year
+        var m = today.getMonth() - date.getMonth();
+        if (m < 0 || (m === 0 && today.getDate() < date.getDate())) {
+            age--;
+        }
         const data = {
             name: enteredName,
             day: day,
             month: month,
-            year: year
+            year: year,
+            age: age
         }
         props.onAddPeople(data)
         setEnteredName('')

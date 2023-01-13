@@ -10,7 +10,7 @@ const PeopleList = props => {
         <Card className={classes.users}>
             <ul>
                 {props.people.map(ppl => (
-                    <li key={ppl.id}>{ppl.name} {ppl.day}-{ppl.month}-{ppl.year}</li>
+                    <li key={ppl.id}>{ppl.name} {ppl.day}-{ppl.month}-{ppl.year} {ppl.age}</li>
                 ))}
             </ul>
         </Card>
